@@ -1,0 +1,2 @@
+# zomboid
+Backup of server
