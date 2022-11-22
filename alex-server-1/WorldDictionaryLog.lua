@@ -4172,3 +4172,117 @@ table.insert(log, {
 	{ type = "reg_obj", id = 44, obj = "WallCracks" }
 	{ type = "reg_obj", id = 45, obj = "Flowerbed" }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2022/11/22 20:07:24
+	{
+		type = "info",
+		timeStamp = "2022/11/22 20:07:24",
+		saveWorld = "alex-server-1",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"sapphcooking",
+			"pz-vanilla",
+			"AuthenticZBackpacks+",
+			"AuthenticZLite",
+			"ExpandedHelicopterEvents",
+			"Brita_2",
+			"TrueActionsDancing",
+			"manageContainers",
+			"BCGRareWeapons",
+			"BCGTools",
+			"SkillRecoveryJournal",
+			"Authentic Z - Current",
+			"wellsConstruction",
+			"tsarslib",
+		},
+	},
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangProtectionWindowLeftItem", registeryID = 4101, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1000Tank1", registeryID = 4102, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1000Tank2", registeryID = 4103, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1000Tank3", registeryID = 4104, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangProtectionWindowFrontItem", registeryID = 4105, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.500Tank2", registeryID = 4106, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.500Tank3", registeryID = 4107, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1000Trunk", registeryID = 4108, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.500Tank1", registeryID = 4109, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA200Trunk", registeryID = 4110, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA250Trunk", registeryID = 4111, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA900Trunk", registeryID = 4112, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1000Trunk2", registeryID = 4113, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1000Trunk3", registeryID = 4114, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1000Trunk1", registeryID = 4115, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportOven", registeryID = 4116, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA600Trunk3", registeryID = 4117, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA600Trunk2", registeryID = 4118, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA600Trunk1", registeryID = 4119, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1100Trunk2", registeryID = 4120, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1100Trunk1", registeryID = 4121, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1100Trunk3", registeryID = 4122, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportFridge", registeryID = 4123, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA700Trunk1", registeryID = 4124, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA700Trunk3", registeryID = 4125, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA700Trunk2", registeryID = 4126, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA800Trunk", registeryID = 4127, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportDrawer", registeryID = 4128, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangProtectionWindowRightItem", registeryID = 4129, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportMicrowave", registeryID = 4130, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA800Trunk1", registeryID = 4131, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA800Trunk2", registeryID = 4132, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA800Trunk3", registeryID = 4133, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangSkirtsSideItem", registeryID = 4134, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA150Trunk", registeryID = 4135, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangSpoilerFrontItem", registeryID = 4136, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangBullbar1Item", registeryID = 4137, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangProtectionWindowRearItem", registeryID = 4138, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA300Trunk", registeryID = 4139, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1100Trunk", registeryID = 4140, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangRoofRackItem", registeryID = 4141, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportMedicine", registeryID = 4142, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangFendersWideItem", registeryID = 4143, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportSeatBoxWooden", registeryID = 4144, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATASleepingBag", registeryID = 4145, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportCupboard", registeryID = 4146, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA300Trunk1", registeryID = 4147, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA250Trunk3", registeryID = 4148, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA250Trunk2", registeryID = 4149, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA250Trunk1", registeryID = 4150, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA300Trunk2", registeryID = 4151, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA300Trunk3", registeryID = 4152, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportCounter", registeryID = 4153, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA900Trunk1", registeryID = 4154, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA900Trunk2", registeryID = 4155, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA900Trunk3", registeryID = 4156, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATAFreestorageTrunk", registeryID = 4157, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA600Trunk", registeryID = 4158, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangBullbar2Item", registeryID = 4159, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA150Trunk3", registeryID = 4160, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA150Trunk2", registeryID = 4161, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA150Trunk1", registeryID = 4162, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATATuningFordMustang", registeryID = 4163, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA200Trunk2", registeryID = 4164, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA200Trunk1", registeryID = 4165, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA200Trunk3", registeryID = 4166, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangSpoilerRear2Item", registeryID = 4167, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA500Trunk", registeryID = 4168, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA700Trunk", registeryID = 4169, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA400Trunk", registeryID = 4170, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1200Trunk1", registeryID = 4171, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1200Trunk3", registeryID = 4172, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1200Trunk2", registeryID = 4173, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATARoofLightItem", registeryID = 4174, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATAProtectionWheelsChain", registeryID = 4175, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA1200Trunk", registeryID = 4176, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA400Trunk3", registeryID = 4177, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA400Trunk1", registeryID = 4178, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA400Trunk2", registeryID = 4179, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportFreezer", registeryID = 4180, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangSpoilerRear1Item", registeryID = 4181, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAMustangBullbar3Item", registeryID = 4182, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA500Trunk3", registeryID = 4183, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA500Trunk2", registeryID = 4184, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.ATA500Trunk1", registeryID = 4185, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TransportShelve", registeryID = 4186, existsVanilla = false, isModded = true, modID = "tsarslib", obsolete = false, removed = false, isLoaded = true }
+};
